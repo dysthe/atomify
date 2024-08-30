@@ -1,8 +1,10 @@
-# Atomify examples template
+# Fys2160 Thermal and statistical physics Atomify examples
 
-➡️ **https://andeplane.github.io/atomify?examplesUrl=https://raw.githubusercontent.com/andeplane/atomify-examples-template/main/examples.json**
+➡️ **https://andeplane.github.io/atomify?examplesUrl=https://raw.githubusercontent.com/dysthe/atomify/main/examples.json**
 
 ![Atomify example template](screenshot.png)
+
+This is generated from andeplane/atomify-examples-template
 
 If you want customize the examples in Atomify for e.g. teaching, you can use this GitHub template (Click the green **Use this template** button in the top of the repository). You can specify simulations and Python notebooks to perform analysis of the simulations.
 
