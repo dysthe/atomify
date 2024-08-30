@@ -57,8 +57,8 @@
         "description": "We measure the diffusion coefficient using the mean square displacement.",
         "analysisDescription": "# About this simulation\nWe measure the diffusion coefficient using the mean square displacement.",
         "analysisScript": "3d-msd-diffusion.ipynb",
-        "imageUrl": "2d-vacf-diffusion/2d-vacf-diffusion.png",
-        "inputScript": "2d-vacf-diffusion.in",
+        "imageUrl": "3d-msd-diffusion/3d-msd-diffusion.png",
+        "inputScript": "3d-msd-diffusion.in",
         "keywords": [
             "lennard jones",
             "diffusion",
@@ -66,12 +66,12 @@
         ],
         "files": [
             {
-                "fileName": "2d-vacf-diffusion.in",
-                "url": "2d-vacf-diffusion/2d-vacf-diffusion.in"
+                "fileName": "3d-msd-diffusion.in",
+                "url": "3d-msd-diffusion/3d-msd-diffusion.in"
             },
             {
-              "fileName": "2d-vacf-diffusion.ipynb",
-              "url": "2d-vacf-diffusion/2d-vacf-diffusion.ipynb"
+              "fileName": "3d-msd-diffusion.ipynb",
+              "url": "3d-msd-diffusion/3d-msd-diffusion.ipynb"
           }
         ]
       }
