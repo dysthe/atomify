@@ -1,4 +1,20 @@
 # Introduction
+
+Statistical mechanics allows us to go from the atomic hypotesis to theories for macroscopic behavior. We can also study the behavior of a system in detail by calculating and following the motion of each atom in the system, this is what molecular dynamics (MD) is about.
+
+The following examples, exercises and projects using MD are part of the curriculum of the course Fys2160 Thermal and statistical physics.
+
+# First simulation using Atomify Lammps
+
+Find the example entitled: **My first MD simulation**
+
+# Diffusion simulations
+
+There are three diffusion examples we will work with entitled:
+* **2D diffusion MSD**
+* **2D diffusion VACF**
+* **3D diffusion MSD**
+
 In these simulations, we simulate atoms diffusing in a liquid and measure the diffusion coefficient using methods like mean square displacement and velocity auto correlation.
 
 The mean square displacement is defined as 

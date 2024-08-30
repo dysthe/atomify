@@ -1,6 +1,6 @@
 {
-  "baseUrl": "https://raw.githubusercontent.com/andeplane/atomify-examples-template/main",
-  "title": "Diffusion examples",
+  "baseUrl": "https://github.com/dysthe/atomify/main",
+  "title": "Fys2160 Thermal and statistical physics examples and projects in Atomify",
   "descriptionFile": "description.md",
   "examples": [
       {
@@ -48,6 +48,54 @@
             {
               "fileName": "2d-vacf-diffusion.ipynb",
               "url": "2d-vacf-diffusion/2d-vacf-diffusion.ipynb"
+          }
+        ]
+      }
+      {
+        "id": "3d-msd-diffusion",
+        "title": "3D diffusion MSD",
+        "description": "We measure the diffusion coefficient using the mean square displacement.",
+        "analysisDescription": "# About this simulation\nWe measure the diffusion coefficient using the mean square displacement.",
+        "analysisScript": "3d-msd-diffusion.ipynb",
+        "imageUrl": "2d-vacf-diffusion/2d-vacf-diffusion.png",
+        "inputScript": "2d-vacf-diffusion.in",
+        "keywords": [
+            "lennard jones",
+            "diffusion",
+            "velocity autocorrelation function"
+        ],
+        "files": [
+            {
+                "fileName": "2d-vacf-diffusion.in",
+                "url": "2d-vacf-diffusion/2d-vacf-diffusion.in"
+            },
+            {
+              "fileName": "2d-vacf-diffusion.ipynb",
+              "url": "2d-vacf-diffusion/2d-vacf-diffusion.ipynb"
+          }
+        ]
+      }
+      {
+        "id": "my-first-md-simulation",
+        "title": "My first MD simulation",
+        "description": "We measure the diffusion coefficient using the velocity auto correlation function.",
+        "analysisDescription": "# About this simulation\nWe measure the diffusion coefficient using the velocity auto correlation function.",
+        "analysisScript": "my-first-md-simulation.ipynb",
+        "imageUrl": "my-first-md-simulation/my-first-md-simulation.png",
+        "inputScript": "my-first-md-simulation.in",
+        "keywords": [
+            "lennard jones",
+            "diffusion",
+            "2-sided box"
+        ],
+        "files": [
+            {
+                "fileName": "my-first-md-simulation.in",
+                "url": "my-first-md-simulation/my-first-md-simulation.in"
+            },
+            {
+              "fileName": "my-first-md-simulation.ipynb",
+              "url": "my-first-md-simulation/my-first-md-simulation.ipynb"
           }
         ]
     }
