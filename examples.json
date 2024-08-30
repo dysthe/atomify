@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://github.com/dysthe/atomify/main",
+  "baseUrl": "https://raw.githubusercontent.com/dysthe/atomify/main",
   "title": "Fys2160 Thermal and statistical physics examples and projects in Atomify",
   "descriptionFile": "description.md",
   "examples": [
