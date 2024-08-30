@@ -1,6 +1,6 @@
 # Fys2160 Thermal and statistical physics Atomify examples
 
-➡️ **https://andeplane.github.io/atomify?examplesUrl=https://raw.githubusercontent.com/dysthe/atomify/main/startup/examples.json**
+➡️ **https://andeplane.github.io/atomify?examplesUrl=https://raw.githubusercontent.com/dysthe/atomify/main/examples.json**
 
 ![Atomify example template](screenshot.png)
 
