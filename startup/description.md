@@ -6,7 +6,6 @@ The following examples, exercises and projects using MD are part of the curricul
 
 # First simulation using Atomify Lammps
 
-Find the example entitled: **My first MD simulation**
 
 # Diffusion simulations
 

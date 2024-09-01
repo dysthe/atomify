@@ -14,7 +14,7 @@ atom_style atomic
 dimension 2
 region simbox block 0 30 0 30 -0.1 0.1
 create_box 1 simbox
-lattice hex 0.5
+lattice hex 0.45
 create_atoms 1 box
 
 # Define properties of the atoms
