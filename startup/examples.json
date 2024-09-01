@@ -79,7 +79,7 @@
         "id": "my-first-md-simulation",
         "title": "My first MD simulation",
         "description": "We measure the diffusion coefficient using the velocity auto correlation function.",
-        "analysisDescription": "# About this simulation\nWe try out different settings and analyze the output.",
+        "analysisDescription": "# About this simulation\nWe try out different settings and analyze the output",
         "analysisScript": "my-first-md-simulation.ipynb",
         "imageUrl": "my-first-md-simulation/my-first-md-simulation.png",
         "inputScript": "my-first-md-simulation.in",
