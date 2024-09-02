@@ -6,7 +6,7 @@ The following examples, exercises and projects using MD are part of the curricul
 
 # First simulation using Atomify Lammps
 
-** My first MD simulation **
+**My first MD simulation**
 
 This will familiarize you with running and analyzing simulations in Atomify.
 
