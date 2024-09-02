@@ -6,24 +6,22 @@ The following examples, exercises and projects using MD are part of the curricul
 
 # First simulation using Atomify Lammps
 
+** My first MD simulation **
+
+This will familiarize you with running and analyzing simulations in Atomify.
 
 # Diffusion simulations
 
-There are three diffusion examples we will work with entitled:
-* **2D diffusion MSD**
-* **2D diffusion VACF**
-* **3D diffusion MSD**
+**3D diffusion MSD**
 
 In these simulations, we simulate atoms diffusing in a liquid and measure the diffusion coefficient using methods like mean square displacement and velocity auto correlation.
 
-The mean square displacement is defined as 
+The mean square displacement in the x-direction is defined as 
 
 $MSD = \langle (\vec x(t) - \vec x_0)^2\rangle  = \frac{1}{N}\sum_{i=1}^{N} |\vec x^{(i)}(t) - \vec x^{(i)}_0|^2$
 
-and relates to the diffusion coefficient as
+and relates to the diffusion coefficient $D$ as
 
-$D = \frac{\langle (\vec x(t) - \vec x_0)^2\rangle}{2D}$
+$D = \frac{\langle (\vec x(t) - \vec x_0)^2\rangle}{2t}$
 
-where $D=2$ is the number of dimensions. We can also calculate the diffusion coefficient through a Green-Kubo relation given as
-
-$D = \int_0^\infty dt \langle u(t) u(0) \rangle$, where $\langle u(t) u(0) \rangle$ is the velocity auto correlation function.
+where $t$ is the time.
