@@ -1,6 +1,6 @@
 # Move camera to a nice position
-#/camera position 0 0 100
-#/camera target 0 0 0
+#/camera position 15 15 40
+#/camera target 15 15 0
 
 # Set atom size and color
 #/atom 1 1.0 #ffffff
