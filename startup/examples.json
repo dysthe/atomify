@@ -50,6 +50,30 @@
               "url": "my-first-md-simulation/my-first-md-simulation.ipynb"
           }
         ]
+    },
+      {
+        "id": "2d-melting",
+        "title": "Melting of a 2D solid",
+          "description": "A quick and dirty demo of freezing, melting and evaporation.",
+        "analysisDescription": "# About this simulation\nA quick and dirty demo of freezing, melting and evaporation.",
+        "analysisScript": "2d-melting.ipynb",
+        "imageUrl": "2d-melting/2d-melting.png",
+        "inputScript": "2d-melting.in",
+        "keywords": [
+            "lennard jones",
+            "diffusion",
+            "melting"
+        ],
+        "files": [
+            {
+                "fileName": "2d-melting.in",
+                "url": "2d-melting/2d-melting.in"
+            },
+            {
+              "fileName": "2d-melting.ipynb",
+              "url": "2d-melting/2d-melting.ipynb"
+          }
+        ]
     }
   ]
 }
