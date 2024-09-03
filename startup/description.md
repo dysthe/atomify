@@ -10,6 +10,14 @@ The following examples, exercises and projects using MD are part of the curricul
 
 This will familiarize you with running and analyzing simulations in Atomify.
 
+**Melting of a 2D solid**
+
+Heating a 2D solid from low temperature to high temperature we observe the melting and evaporation process
+
+**Heat capacity of LJ**
+
+Once again we heat the system, now to measure the heat capacity of LJ gas, liquid and solid.
+
 # Diffusion simulations
 
 **3D diffusion MSD**
