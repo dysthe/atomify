@@ -77,16 +77,15 @@
     },
       {
         "id": "heat-capacity-lj",
-        "title": "Melting of a 2D solid",
-          "description": "A quick and dirty demo of freezing, melting and evaporation.",
-        "analysisDescription": "# About this simulation\nA quick and dirty demo of freezing, melting and evaporation.",
+        "title": "Heat capacity of LJ",
+          "description": "A quick and dirty simulation to obtain the heat capacity.",
+        "analysisDescription": "# About this simulation\nA quick and dirty  simulation to obtain the heat capacity.",
         "analysisScript": "heat-capacity-lj.ipynb",
         "imageUrl": "heat-capacity-lj/heat-capacity-lj.png",
         "inputScript": "heat-capacity-lj.in",
         "keywords": [
             "lennard jones",
-            "diffusion",
-            "melting"
+            "heat capacity"
         ],
         "files": [
             {
