@@ -5,7 +5,7 @@
   "examples": [
       {
         "id": "compressibility-factor",
-        "title": "3D diffusion MSD",
+        "title": "Compressibility factor",
         "description": "We calculate the compressibility factor at different states in the LJ phase diagram.",
         "analysisDescription": "# About this simulation\nWe calculate the compressibility factor.",
         "analysisScript": "compressibility-factor.ipynb",
