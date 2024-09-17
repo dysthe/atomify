@@ -6,15 +6,14 @@
       {
         "id": "compressibility-factor",
         "title": "3D diffusion MSD",
-        "description": "We measure the diffusion coefficient using the mean square displacement.",
-        "analysisDescription": "# About this simulation\nWe measure the diffusion coefficient using the mean square displacement.",
+        "description": "We calculate the compressibility factor at different states in the LJ phase diagram.",
+        "analysisDescription": "# About this simulation\nWe calculate the compressibility factor.",
         "analysisScript": "compressibility-factor.ipynb",
         "imageUrl": "compressibility-factor/compressibility-factor.png",
         "inputScript": "compressibility-factor.in",
         "keywords": [
-            "lennard jones",
-            "diffusion",
-            "velocity autocorrelation function"
+            "Lennard-Jones",
+            "Compressibility factor"
         ],
         "files": [
             {
@@ -29,16 +28,16 @@
       },
       {
         "id": "maxwell-boltzmann",
-        "title": "My first MD simulation",
-        "description": "We try out different settings and analyze the output.",
-        "analysisDescription": "# About this simulation\nWe try out different settings and analyze the output.",
+        "title": "Maxwell-Boltzmann speed distribution",
+          "description": "We calculate the speed distribution for gas, liquid and solid.",
+        "analysisDescription": "# About this simulation\nCalculate the speed distribution.",
         "analysisScript": "maxwell-boltzmann.ipynb",
         "imageUrl": "maxwell-boltzmann/maxwell-boltzmann.png",
         "inputScript": "maxwell-boltzmann.in",
         "keywords": [
             "lennard jones",
-            "diffusion",
-            "2-sided box"
+            "Maxwell-Boltzman",
+            "Speed distribution"
         ],
         "files": [
             {
