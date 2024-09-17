@@ -1,0 +1,55 @@
+{
+  "baseUrl": "https://raw.githubusercontent.com/dysthe/atomify/main/week38",
+  "title": "Fys2160 Thermal and statistical physics weekly exercise week 38",
+  "descriptionFile": "description.md",
+  "examples": [
+      {
+        "id": "compressibility-factor",
+        "title": "3D diffusion MSD",
+        "description": "We measure the diffusion coefficient using the mean square displacement.",
+        "analysisDescription": "# About this simulation\nWe measure the diffusion coefficient using the mean square displacement.",
+        "analysisScript": "compressibility-factor.ipynb",
+        "imageUrl": "compressibility-factor/compressibility-factor.png",
+        "inputScript": "compressibility-factor.in",
+        "keywords": [
+            "lennard jones",
+            "diffusion",
+            "velocity autocorrelation function"
+        ],
+        "files": [
+            {
+                "fileName": "compressibility-factor.in",
+                "url": "compressibility-factor/compressibility-factor.in"
+            },
+            {
+              "fileName": "compressibility-factor.ipynb",
+              "url": "compressibility-factor/compressibility-factor.ipynb"
+          }
+        ]
+      },
+      {
+        "id": "maxwell-boltzmann",
+        "title": "My first MD simulation",
+        "description": "We try out different settings and analyze the output.",
+        "analysisDescription": "# About this simulation\nWe try out different settings and analyze the output.",
+        "analysisScript": "maxwell-boltzmann.ipynb",
+        "imageUrl": "maxwell-boltzmann/maxwell-boltzmann.png",
+        "inputScript": "maxwell-boltzmann.in",
+        "keywords": [
+            "lennard jones",
+            "diffusion",
+            "2-sided box"
+        ],
+        "files": [
+            {
+                "fileName": "maxwell-boltzmann.in",
+                "url": "maxwell-boltzmann/maxwell-boltzmann.in"
+            },
+            {
+              "fileName": "maxwell-boltzmann.ipynb",
+              "url": "maxwell-boltzmann/maxwell-boltzmann.ipynb"
+          }
+        ]
+    }
+  ]
+}
