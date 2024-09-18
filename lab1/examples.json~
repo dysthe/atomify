@@ -1,0 +1,54 @@
+{
+  "baseUrl": "https://raw.githubusercontent.com/dysthe/atomify/main/week38",
+  "title": "Fys2160 Thermal and statistical physics weekly exercise week 38",
+  "descriptionFile": "description.md",
+  "examples": [
+      {
+        "id": "compressibility-factor",
+        "title": "Compressibility factor",
+        "description": "We calculate the compressibility factor at different states in the LJ phase diagram.",
+        "analysisDescription": "# About this simulation\nWe calculate the compressibility factor.",
+        "analysisScript": "compressibility-factor.ipynb",
+        "imageUrl": "compressibility-factor/compressibility-factor.png",
+        "inputScript": "compressibility-factor.in",
+        "keywords": [
+            "Lennard-Jones",
+            "Compressibility factor"
+        ],
+        "files": [
+            {
+                "fileName": "compressibility-factor.in",
+                "url": "compressibility-factor/compressibility-factor.in"
+            },
+            {
+              "fileName": "compressibility-factor.ipynb",
+              "url": "compressibility-factor/compressibility-factor.ipynb"
+          }
+        ]
+      },
+      {
+        "id": "maxwell-boltzmann",
+        "title": "Maxwell-Boltzmann speed distribution",
+          "description": "We calculate the speed distribution for gas, liquid and solid.",
+        "analysisDescription": "# About this simulation\nCalculate the speed distribution.",
+        "analysisScript": "maxwell-boltzmann.ipynb",
+        "imageUrl": "maxwell-boltzmann/maxwell-boltzmann.png",
+        "inputScript": "maxwell-boltzmann.in",
+        "keywords": [
+            "lennard jones",
+            "Maxwell-Boltzman",
+            "Speed distribution"
+        ],
+        "files": [
+            {
+                "fileName": "maxwell-boltzmann.in",
+                "url": "maxwell-boltzmann/maxwell-boltzmann.in"
+            },
+            {
+              "fileName": "maxwell-boltzmann.ipynb",
+              "url": "maxwell-boltzmann/maxwell-boltzmann.ipynb"
+          }
+        ]
+    }
+  ]
+}
