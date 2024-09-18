@@ -1,6 +1,6 @@
 "baseUrl":
 
-https://raw.githubusercontent.com/dysthe/atomify/main/lab1/examples.json
+https://raw.githubusercontent.com/dysthe/atomify/main/lab1
 
 http://localhost:8000
 
