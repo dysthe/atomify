@@ -28,4 +28,6 @@ A positive second virial coefficient signifies that the final size of the molecu
 
 ##  Maxwell-Boltzmann speed distribution
 
-In section 6.3 of Schroeder he derives the Maxwell-Boltzmann speed distribution of an ideal gas. In this short exercise you will measure the speed distribution of a Lennard-Jones liquid and solid and compare them to the Maxwell-Boltzmann speed distribution.
+In section 6.3 of Schroeder he derives the Maxwell-Boltzmann speed distribution of an ideal gas. In this short exercise you will measure the speed distribution of a Lennard-Jones liquid and solid and compare them to the Maxwell-Boltzmann speed distribution:
+
+$  D(v)=\left(\frac{m}{2\pi kT}\right)^{3/2}4\pi v^2\exp\left(-\frac{mv^2}{2kT}\right)$.

@@ -47,5 +47,5 @@ fix nve all nve
 
 #Define frequency of thermodynamic output and trajectory dump and start production run
 thermo 100
-dump 1 all custom 100 dump.lammpstrj id type x y z vx vy vz
+dump 1 all custom 10 dump.lammpstrj id type x y z vx vy vz
 run 10000
