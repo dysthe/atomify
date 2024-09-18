@@ -1,3 +1,8 @@
+#/camera position 128.6 92.5 125.5
+#/camera target 13.0 -23.0 9.9
+# Set atom size and color
+#/atom 1 1.0 #ffffff
+
 # Define variables
 # Length of sides of cubic box
 variable L equal 5
@@ -5,6 +10,8 @@ variable L equal 5
 variable T equal 1
 # Density:
 variable rho equal 0.001
+# How much heat to add per timestep
+variable eFlux equal 1
 # Pressure:
 variable P equal 0.01
 # Set Pconst=1 for pressure constant, Pconst=0 for volume constant
@@ -40,12 +47,14 @@ else &
 "fix nph all nph iso $P $P 1"
 
 #Start heat addition and run to stabilize
-variable eFlux equal 1
 fix heat all heat 1 ${eFlux} region simbox
 run 1000
 
 #Define new thermodynamic output and trajectory dump and start production run
 thermo_style custom step temp epair etotal press
 thermo 100
+# Set filename of log filename
+log log-atomic-T1-rho0p001-eFlux1.lammps
+# Define trajectory output
 dump 1 all custom 100 dump.lammpstrj id x y z vx vy vz
-run 100000
+run 1000

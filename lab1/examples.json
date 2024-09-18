@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://raw.githubusercontent.com/dysthe/atomify/main/lab1",
+  "baseUrl": "http://localhost:8000",
     "title": "Fys2160 Thermal and statistical physics Lab1: Gas thermodynamics",
   "descriptionFile": "description.md",
   "examples": [
@@ -29,7 +29,7 @@
       },
       {
         "id": "heatcap-diatomic-lj",
-        "title": "Heatcap-Diatomic-Lj speed distribution",
+        "title": "Heat capacity of diatomic LJ",
           "description": "We calculate the heat capacity for diatomic Lennard-Jones molecules.",
         "analysisDescription": "# About this simulation\nHeat capacity of diatomic LJ.",
         "analysisScript": "heatcap-diatomic-lj.ipynb",
@@ -44,6 +44,10 @@
             {
                 "fileName": "heatcap-diatomic-lj.in",
                 "url": "heatcap-diatomic-lj/heatcap-diatomic-lj.in"
+            },
+            {
+              "fileName": "diat.molecule",
+              "url": "heatcap-diatomic-lj/diat.molecule"
             },
             {
               "fileName": "heatcap-diatomic-lj.ipynb",

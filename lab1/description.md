@@ -1,5 +1,3 @@
-# Gas thermodynamics
-
 The ideal gas is a theoretical idealisation that is valid for gases at low pressure and density. In this exercise you will do experiments to probe the range of validity of the _ideal gas model_ and the _degrees of freedom_ of the gases. You have two types of instruments at your disposal to do experiments,
 
 * _Lammps MD simulator_ that can be used to measure the _compressibility_ and the _heat capacity_ in three model gases:

@@ -1,6 +1,11 @@
+#/camera position 90.6 79.7 84.8
+#/camera target 5.8 -5.2 -0.1
+# Set atom size and color
+#/atom 1 1.0 #ff0000
+
 # Define variables
 # Starting temperature:
-variable T equal 1
+variable T equal 2
 # Number of molecules:
 variable N equal 500
 # Density:
@@ -48,7 +53,7 @@ neigh_modify every 1 delay 0 check yes
 fix nvt all nvt temp $T $T 1
 
 #Thermalization run
-run             100000
+run 10000
 
 # Define thermodynamic ensemble for long run
 unfix nvt
@@ -61,5 +66,8 @@ run 1000
 #Define frequency of thermodynamic output and trajectory dump and start production run
 thermo_style custom step temp epair etotal press
 thermo 100
+# Set filename of log filename
+log log-diatom-T2-rho0p01-eFlux1.lammps
+# Define trajectory output
 dump 1 all custom 100 dump.lammpstrj id x y z vx vy vz
-run 100000
+run 10000
