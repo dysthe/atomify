@@ -1,5 +1,5 @@
 {
-  "baseUrl": "http://localhost:8000",
+  "baseUrl": "https://raw.githubusercontent.com/dysthe/atomify/main/lab1/examples.json",
     "title": "Fys2160 Thermal and statistical physics Lab1: Gas thermodynamics",
   "descriptionFile": "description.md",
   "examples": [

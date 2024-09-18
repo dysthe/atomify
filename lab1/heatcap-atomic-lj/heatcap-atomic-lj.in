@@ -1,7 +1,7 @@
 #/camera position 128.6 92.5 125.5
 #/camera target 13.0 -23.0 9.9
 # Set atom size and color
-#/atom 1 1.0 #ffffff
+#/atom 1 1.0 #ff0000
 
 # Define variables
 # Length of sides of cubic box
@@ -37,7 +37,7 @@ neigh_modify every 1 delay 0 check yes
 
 
 #Thermalization run
-run 1000
+run 10000
 
 if "${Pconst} == 0" then &
 "unfix nvt" &
@@ -57,4 +57,4 @@ thermo 100
 log log-atomic-T1-rho0p001-eFlux1.lammps
 # Define trajectory output
 dump 1 all custom 100 dump.lammpstrj id x y z vx vy vz
-run 1000
+run 10000
