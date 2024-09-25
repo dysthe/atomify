@@ -5,4 +5,8 @@ https://raw.githubusercontent.com/dysthe/atomify/main/lab1
 http://localhost:8000
 
 
+i terminal: 
+/Users/dagkd/Documents/GitHub/atomify/lab1 > python server.py
+
+
 
