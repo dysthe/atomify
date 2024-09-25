@@ -70,4 +70,4 @@ thermo 100
 log log-diatom-T2-rho0p01-eFlux10.lammps
 # Define trajectory output
 dump 1 all custom 100 dump.lammpstrj id x y z vx vy vz
-run 10000
+run 50000

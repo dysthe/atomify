@@ -11,7 +11,7 @@ variable T equal 1
 # Density:
 variable rho equal 0.001
 # How much heat to add per timestep
-variable eFlux equal 5
+variable eFlux equal 2
 # Pressure:
 variable P equal 0.01
 # Set Pconst=1 for pressure constant, Pconst=0 for volume constant
@@ -57,4 +57,4 @@ thermo 100
 log log-atomic-T1-rho0p001-eFlux1.lammps
 # Define trajectory output
 dump 1 all custom 100 dump.lammpstrj id x y z vx vy vz
-run 10000
+run 50000
