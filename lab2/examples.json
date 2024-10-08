@@ -22,6 +22,14 @@
                 "url": "ice2water2vapour/ice2water2vapour.in"
             },
             {
+                "fileName": "restart.250K",
+                "url": "ice2water2vapour/restart.250Kn"
+            },
+            {
+                "fileName": "forcefield.SPCE",
+                "url": "ice2water2vapour/forcefield.SPCE"
+            },
+            {
               "fileName": "ice2water2vapour.ipynb",
               "url": "ice2water2vapour/ice2water2vapour.ipynb"
           }
