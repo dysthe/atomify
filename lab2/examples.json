@@ -1,0 +1,31 @@
+{
+  "baseUrl": "https://raw.githubusercontent.com/dysthe/atomify/main/lab2",
+    "title": "Fys2160 Thermal and statistical physics Lab2: Phase transitions",
+  "descriptionFile": "description.md",
+  "examples": [
+      {
+        "id": "ice2water2vapour",
+        "title": "Phase coexistence of ice, water and vapour",
+        "description": "We observe the change in molecular arrangement during melting and evaporation",
+        "analysisDescription": "# About this simulation\nWe observe the change in molecular arrangement during melting and evaporatio.",
+        "analysisScript": "ice2water2vapour.ipynb",
+        "imageUrl": "ice2water2vapour/ice2water2vapour.png",
+        "inputScript": "ice2water2vapour.in",
+        "keywords": [
+            "Water",
+	    "Ice",
+            "SPCE water model"
+        ],
+        "files": [
+            {
+                "fileName": "ice2water2vapour.in",
+                "url": "ice2water2vapour/ice2water2vapour.in"
+            },
+            {
+              "fileName": "ice2water2vapour.ipynb",
+              "url": "ice2water2vapour/ice2water2vapour.ipynb"
+          }
+        ]
+      }
+  ]
+}
