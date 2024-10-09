@@ -1,6 +1,6 @@
 ## Set temperature
 variable Told equal 250
-variable Tnew equal 301
+variable Tnew equal 300
 
 units real
 atom_style full
