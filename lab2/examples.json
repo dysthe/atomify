@@ -26,10 +26,6 @@
                 "url": "ice2water2vapour/data.250K"
             },
             {
-                "fileName": "forcefield.SPCE",
-                "url": "ice2water2vapour/forcefield.SPCE"
-            },
-            {
               "fileName": "ice2water2vapour.ipynb",
               "url": "ice2water2vapour/ice2water2vapour.ipynb"
           }
