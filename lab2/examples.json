@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://raw.githubusercontent.com/dysthe/atomify/main/lab2/",
+  "baseUrl": "http://localhost:8000/",
     "title": "Fys2160 Thermal and statistical physics Lab2: Phase transitions",
   "descriptionFile": "description.md",
   "examples": [
@@ -24,10 +24,6 @@
             {
                 "fileName": "data.250K",
                 "url": "ice2water2vapour/data.250K"
-            },
-            {
-                "fileName": "forcefield.SPCE",
-                "url": "ice2water2vapour/forcefield.SPCE"
             },
             {
               "fileName": "ice2water2vapour.ipynb",
