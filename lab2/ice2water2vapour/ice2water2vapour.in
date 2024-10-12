@@ -42,7 +42,7 @@ thermo 100
 log log_${Tnew}K.lammps
 
 # Trajectory output
-dump trj all atom 100 traj_ice2water2vapour_${Tnew}K.lammpstrj
+dump trj all atom 100 traj_${Tnew}K.lammpstrj
 
 run ${runlength}
 write_data data.${Tnew}K
