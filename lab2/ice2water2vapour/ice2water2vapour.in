@@ -1,6 +1,9 @@
+#/camera position 5.3 9.9 62.2
+#/camera target 2.6 0.7 0.7
 ## Set temperature
 variable Told equal 250
-variable Tnew equal 300
+variable Tnew equal 251
+variable runlength equal 1000
 
 units real
 atom_style full
@@ -36,9 +39,10 @@ fix 1 all npt temp ${Tnew} ${Tnew} 300.0 iso 1.0 1.0 1000.0
 # Thermodynamic output
 thermo_style custom step temp etotal enthalpy
 thermo 100
+log log_${Tnew}K.lammps
 
 # Trajectory output
-# dump trj all atom 100 ice2water2vapour_${Tnew}K.lammpstrj
+dump trj all atom 100 traj_ice2water2vapour_${Tnew}K.lammpstrj
 
-run 2000
+run ${runlength}
 write_data data.${Tnew}K
