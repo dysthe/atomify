@@ -54,7 +54,7 @@ run 1000
 thermo_style custom step temp epair etotal press
 thermo 100
 # Set filename of log filename
-log log-atomic-T1-rho0p001-eFlux2.lammps
+log log-atomic-T$T-rho${rho}-eFlux${eFlux}.lammps
 # Define trajectory output
 dump 1 all custom 100 dump.lammpstrj id x y z vx vy vz
 run 50000

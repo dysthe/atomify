@@ -67,7 +67,7 @@ run 1000
 thermo_style custom step temp epair etotal press
 thermo 100
 # Set filename of log filename
-log log-diatom-T2-rho0p01-eFlux10.lammps
+log log-diatom-T$T-rho${rho}-eFlux${eFlux}.lammps
 # Define trajectory output
 dump 1 all custom 100 dump.lammpstrj id x y z vx vy vz
 run 50000
