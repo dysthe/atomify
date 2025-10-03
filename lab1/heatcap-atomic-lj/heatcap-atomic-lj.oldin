@@ -4,16 +4,14 @@
 #/atom 1 1.0 #ff0000
 
 # Define variables
-# Starting temperature:
-variable T equal 2
-# Number of molecules:
-variable N equal 500
+# Length of sides of cubic box
+variable L equal 5
+# Temperature:
+variable T equal 1
 # Density:
 variable rho equal 0.001
-# Length of sides of cubic box
-variable L equal (${N}/${rho})^(1/3)
 # How much heat to add per timestep
-variable eFlux equal 5
+variable eFlux equal 2
 # Pressure:
 variable P equal 0.01
 # Set Pconst=1 for pressure constant, Pconst=0 for volume constant
