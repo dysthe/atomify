@@ -21,8 +21,8 @@ variable Pconst equal 0
 
 units lj
 dimension 3
-lattice fcc ${rho}
 region simbox block 0 $L 0 $L 0 $L
+lattice fcc ${rho}
 create_box 1 simbox
 create_atoms 1 box
 
